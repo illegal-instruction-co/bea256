@@ -16,7 +16,7 @@ class BEA256 {
 
         try {
             for (var i = 0; i < this.blocks.length; i++) {
-                const key = i === 0 ? this.key : this.keepLetters[i - 1]
+                const key = i === 0 ? this.key : this.key + this.keepLetters[i - 1]
                 this.blocks[i] = {
                     id: this.aesEncrypt(this.keepLetters[i], key),
                     previus_id: i === 0 ? this.aesEncrypt('', this.key) : CryptoJS.AES.encrypt(this.blocks[i - 1].letter, this.key).toString()
@@ -41,7 +41,7 @@ class BEA256 {
 
         try {
             for (var i = 0; i < this.blocks.length; i++) {
-                const key = i === 0 ? this.key : this.keepLetters[i - 1]
+                const key = i === 0 ? this.key : this.key + this.keepLetters[i - 1]
                 this.blocks[i] = {
                     id: this.aesDecrypt(this.blocks[i].id, key)
                 }
