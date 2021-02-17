@@ -2,7 +2,10 @@
   "name": "bea256",
   "version": "1.0.0",
   "description": "aes modification on block chain",
-  "main": "BEA256.js",
+  "main": "bea256/index.js",
+  "directories": {
+    "example": "examples"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,17 +14,14 @@
     "url": "git+https://github.com/illegal-instuction-co/bea256.git"
   },
   "keywords": [
-    "blockchain",
+    "encryption",
     "aes",
-    "encryption"
+    "blockchain"
   ],
-  "author": "illegal-insturiction-co",
+  "author": "illegal-instruction-co",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/illegal-instuction-co/bea256/issues"
   },
-  "homepage": "https://github.com/illegal-instuction-co/bea256#readme",
-  "dependencies": {
-    "crypto-js": "^4.0.0"
-  }
+  "homepage": "https://github.com/illegal-instuction-co/bea256#readme"
 }
