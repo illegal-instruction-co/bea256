@@ -8,13 +8,13 @@ Because why not ?
 # Isnt results are so long ?
 Yes it is. But since we are not in beginning of 2000's, the last thing to worry about will be storage or communication of data issues.
 
-## Block result for "MERHABALAR AQ" string
+## Block result for "MERHABALAR HQ" string
 ![block](https://raw.githubusercontent.com/illegal-instuction-co/bea256/main/assets/block.png)
 
-## Base64 encode result for "MERHABALAR AQ" string encryption
+## Base64 encode result for "MERHABALAR HQ" string encryption
 ![base64](https://raw.githubusercontent.com/illegal-instuction-co/bea256/main/assets/base64.png)
 
-## JSON encode result for "MERHABALAR AQ" string encryption
+## JSON encode result for "MERHABALAR HQ" string encryption
 ![json](https://raw.githubusercontent.com/illegal-instuction-co/bea256/main/assets/json.png)
 
 ## What is that blocks ? 
